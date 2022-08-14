@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:wght@300&display=swap');
+
+body {
+    font-family: Montserrat;
+}
+
+#title {
+    color: white;
+    background-color: #ff4c68;
+    width: 100%;
+}
+
+.container-fluid {
+    padding: 2% 15%;
+}
+
+h1 {
+    font: Montserrat-black;
+    size: 4rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.navbar-brand {
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.nav-item {
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+.fa-solid fa-phone {
+    color: aliceblue;
+}
+
+.title-pic {
+    width: 80%;
+    padding: 5% 7%;
+    transform: rotate(6deg);
+    position: relative;
+   
+
+
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+
+
+}
+
+.feature-box {
+    text-align: center;
+    padding: 4.5%;
+
+}
+
+.fa-solid {
+    margin-bottom: 1rem;
+    color: #ff4c68;
+}
+
+h3 {
+    font-family: Montserrat-bold;
+    font-weight: bold;
+}
+
+.fa-solid:hover {
+    color: red;
+}
+
+/* testimonial-sections */
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+}
+
+h2 {
+    color: white;
+    font-family: Montserrat-bold;
+    size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+}
+
+.carousel-item {
+    padding: 7% 16%;
+}
+
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 1.5%;
+}
+
+.press-logo {
+    width: 25%;
+    padding: 3%;
+}
+
+.cost {
+    color: black;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.cost-heading {
+    color: black;
+    font-family: Montserrat-bold;
+    font-weight: bold;
+    size: 4.5rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+@media (max-width:989px) {
+
+
+    #title{
+        text-align: center;
+    }
+    .title-pic{
+        transform: rotate(0);
+    }
+    
+}
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 8% 15%;
+}
+.footer-text{
+    margin-top:2%;
+    padding: 3%;
+    font-family: Montserrat-Black;
+    color: white;
+}
+#footer{
+    padding:6% 15%;
+    text-align: center;
+}
+.social-icon{
+    padding:1.5%;
+}
